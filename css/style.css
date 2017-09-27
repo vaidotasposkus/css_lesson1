@@ -1,0 +1,42 @@
+.wrapper{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgb(215, 211, 228);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.R, .G, .B{
+    height: 220px;
+    width: 220px;
+    color: #ffffff;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 220px;
+    position: absolute;
+}
+
+.R{
+    background-color: rgba(255, 0, 0, 0.5);
+    border-color: rgb(255, 0, 0);
+    top: 10px;
+    left: 80px;
+}
+
+.G{
+    background-color: rgba(0, 128, 0, 0.5);
+    border-color: rgb(0, 128, 0);
+    bottom: 10px;
+    left: 10px;
+}
+
+.B{
+    background-color: rgba(0, 0, 255, 0.5);
+    border-color: rgb(0, 0, 255);
+    right: 10px;
+    bottom: 10px;
+}
